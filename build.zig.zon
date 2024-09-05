@@ -1,0 +1,14 @@
+.{
+    .name = "libnl-zig",
+    .version = "3.2.25",
+    .dependencies = .{
+        .libnl = .{
+            .url = "https://www.infradead.org/~tgr/libnl/files/libnl-3.2.25.tar.gz",
+            .hash = "122021ce06e96e1eef1ab3fbba744802f519e14d4421bff0d4b6d4f0fc535778e118",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
